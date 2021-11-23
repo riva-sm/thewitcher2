@@ -1,0 +1,64 @@
+html {
+  position: relative;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  background-image: linear-gradient(
+      181.78deg,
+      rgba(0, 0, 0, 0) 49.38%,
+      rgba(0, 0, 0, 0.42) 98.49%
+    ),
+    url(../img/background.jpg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
