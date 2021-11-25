@@ -1,0 +1,30 @@
+.present {
+  padding-top: 7px;
+}
+.present__title {
+  font-family: "Ibm Implex Mono", sans-serif;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 120%;
+  margin-bottom: 8px;
+}
+.present__tagline {
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 54px;
+}
+.present__btn {
+  display: block;
+  width: 285px;
+  height: 68px;
+  background-image: url("../img/button.png");
+  -webkit-filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
+  filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
+  border-radius: 2px;
+  background-position: center;
+  background-size: cover;
+}
+
+.present__hero {
+  margin-bottom: 30px;
+}
