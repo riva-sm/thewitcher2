@@ -78,20 +78,20 @@ iframe {
   body {
     font-size: 16px;
   }
-  .present::before {
+  .page::before {
     right: 0;
     height: calc(100% - 90px);
   }
 }
 
-@media (min-height: 850px) {
+@media (max-width: 850px) {
   .container {
     padding: 0 39px;
   }
-  .present::before {
+  .page::before {
     top: 109px;
     bottom: auto;
-    height: 448px;
+    height: 448px !important;
   }
 }
 
@@ -100,15 +100,15 @@ iframe {
     padding: 0 25px;
   }
 }
-@media (min-height: 480px) {
+@media (max-width: 480px) {
   body {
     font-size: 14px;
   }
   .container {
     padding: 0 15px;
   }
-  .present::before {
+  .page::before {
     top: 49px;
-    height: 258px;
+    height: 258px !important;
   }
 }
