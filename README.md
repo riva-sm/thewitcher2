@@ -5,3 +5,5 @@
 - HTML
 - CSS
 - Normalize
+- Javascript
+- Fetch
