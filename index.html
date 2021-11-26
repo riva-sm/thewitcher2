@@ -9,9 +9,10 @@
   <link rel="icon" href="img/logo.svg" type="svg+xml">
   <link rel="preload" href="/fonts/ibm-plex-mono-latin_cyrillic-500.woff" as="font" type="font/woff" crossorigin>
   <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js" type="module"></script>
 </head>
 
-<body>
+<body class="page">
   <header class="header">
     <div class="container header__container">
       <img class="header__logo" src="img/logo.svg" width="93" height="85" alt="Лого сериал The Witcher">
@@ -30,11 +31,12 @@
             <a class="navigation__link navigation__link_kinopoisk" href="https://www.kinopoisk.ru/" target="_blank"></a>
           </li>
         </ul>
+        <button class="navigation__btn burger"><span class="burger__line"></span></button>
       </nav>
     </div>
   </header>
   <section class="present">
-    <div class="container">
+    <div class="container present__container">
       <div class="present__hero">
         <h1 class="present__title">Ведьмак</h1>
         <p class="present__tagline">Те, кто связан предназначением,
@@ -55,7 +57,7 @@
         </ul>
         <ul class="tabs__list">
           <li class="tabs__item tabs__item_active">
-            <ul class="tabs__content">
+            <ul class="tabs__content tabs__content_video">
               <li class="card card_video">
                 <a class="card__link" href="https://youtu.be/aTPPmHqMZOw">
                   <figure>
@@ -83,7 +85,7 @@
             </ul>
           </li>
           <li class="tabs__item">
-            <ul class="tabs__content">
+            <ul class="tabs__content tabs__content_img">
               <li class="card card_img">
                 <img class="card__photo-img" src="img/cirilla.jpg" alt="">
               </li>
@@ -99,7 +101,7 @@
             </ul>
           </li>
           <li class="tabs__item">
-            <ul class="tabs__content">
+            <ul class="tabs__content tabs__content_product">
               <li class="card card_product">
                 <article class="product">
                   <img class="product__img" src="img/pendant.jpg" alt="">

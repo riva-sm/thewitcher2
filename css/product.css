@@ -49,3 +49,26 @@
   border-color: #9b9b9b;
   background-color: rgba(255, 255, 255, 0.19);
 }
+
+@media (max-width: 1000px) {
+  .product__title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 850px) {
+  .product__img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 750px) {
+  .product__img {
+    height: calc((100vw - 78px) / 5 * 3);
+  }
+}
+@media (max-width: 480px) {
+  .product__img {
+    height: calc((100vw - 30px) / 5 * 3);
+  }
+}

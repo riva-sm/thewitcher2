@@ -12,3 +12,12 @@
 .header__navigation {
   justify-self: end;
 }
+
+@media (min-height: 480px) {
+  .header {
+    padding-top: 15px;
+  }
+  .header__container {
+    grid-template-columns: 45px 1fr 45px;
+  }
+}
